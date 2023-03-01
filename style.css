@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    color: rgb(215, 1, 36);
+    font-size: 1.3em;
+    background-color: rgb(255, 251, 214);
+
+}
+.imglogo{
+    margin-right: auto;
+    cursor: pointer;
+    width: 120px
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+li a{
+    text-decoration: none;      
+    color: rgb(215, 1, 36);
+}
+li a:hover{
+    transition: .8s;
+    color: rgb(255, 0, 43);
+}
+.imgheader{
+    height: 40px;
+}
+.bolofundo {
+    background-attachment: fixed;
+    width: 98.7vw;
+    box-shadow: inset 10px 10px 12px rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(252, 252, 252);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+}
+.h1main{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nosfundo{
+    margin: 40px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.nosfundo2{
+    margin: 40px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.imgmain{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #00000025;
+}
+footer{
+    min-height: 80px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px ;
+}
+.lifooter{
+    display: flex;
+}
+.imgfooter{
+    height: 40px;
+    margin-left: 10px
+}
+
